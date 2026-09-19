@@ -4,9 +4,9 @@ A structured repository containing foundational code, exercises, and mini-projec
 
 ## 📁 Repository Structure
 
-- `01-html-css/`: Semantic markup, responsive design patterns, Flexbox, and CSS Grid layouts.
-- `02-js-essentials/`: DOM manipulation, event handling, asynchronous JS, array methods, and algorithms.
-- `03-mini-projects/`: Hands-on implementation of standalone frontend components and utility apps.
+* `01-html/`: Semantic markup and HTML fundamentals.
+* `02-css/`: Responsive design, Flexbox, and CSS Grid layouts.
+* `03-javascript/`: DOM manipulation, event handling, asynchronous JavaScript, array methods, and algorithms.
 
 ## 🛠️ Core Skills Covered
 
