@@ -1,0 +1,37 @@
+
+<!-- To add your images in webpage, the <img> tag is used. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO TAG</title>
+</head>
+<body>
+    
+    <video src="../assets/demo-video.mp4" height="500px" 
+        loop controls autoplay muted alt="demo video">
+
+    <!-- Here with video tag, src attribute is used to give the path of your video. -->
+    <!-- alt attribute shows alternative text if video is not shown for any reason. -->
+    <!-- height/width attributes are used to adjust size of images on your webpage. -->
+    <!-- loop plays the video continuously. -->
+    <!-- autoplay plays the video automatically while the page refreshed. -->
+    <!-- muted plays the video in mute mode by default. -->
+
+
+    <!-- you can also import videos from internet anywhere just like images. -->
+    <video src="https://www.youtube.com/watch?v=vjQgA3M4Jmo" width="300px" alt="Virat Kohli Edit" controls>
+
+    <!-- here controls attribute allows you to pause/play/download video manually.-->
+
+
+    <!-- You can also show video with another thing: -->
+
+    <video controls>    <!-- here you can give all attributes. -->
+        <source src="../assets/demo-video.mp4" type="video/mp4">    <!-- here you have to only give path and type of video file. -->
+    </video>
+
+</body>
+</html>
