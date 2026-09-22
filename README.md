@@ -1,6 +1,6 @@
 # 🌐 Web Development Fundamentals
 
-A structured repository containing foundational code, exercises, and mini-projects covering HTML5, CSS3, modern JavaScript (ES6+), and core web architecture concepts.
+A structured repository containing foundational code, exercises, and mini-projects covering HTML5, CSS3, modern JavaScript, and core web architecture concepts.
 
 ## 📁 Repository Structure
 
