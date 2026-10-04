@@ -1,47 +1,105 @@
-
 <!-- An Mini survey form that implements concept of semantic html. -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
 
     <form action="#" id="survey-form">
-        <label id="name-label" for="name">Name </label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+      <label id="name-label" for="name">Name </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      /><br />
 
-        <label id="email-label" for="email">Email </label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+      <label id="email-label" for="email">Email </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      /><br />
 
-        <label id="number-label" for="age">Age(optional) </label>
-        <input type="number" id="number" name="age" placeholder="Age" required min="3" max="100"><br>
+      <label id="number-label" for="age">Age(optional) </label>
+      <input
+        type="number"
+        id="number"
+        name="age"
+        placeholder="Age"
+        required
+        min="3"
+        max="100"
+      /><br />
 
-        <p>Which option best describes your current role?</p>
-        <select name="dropdown" id="dropdown">
-            <option value="" selected disabled>Select Current role</option>
-            <option value="">Student</option>
-            <option value="">Full Time Job</option>
-            <option value="">Full Time Learner</option>
-            <option value="">Prefer not to say</option>
-        </select>
+      <p>Which option best describes your current role?</p>
+      <select name="dropdown" id="dropdown">
+        <option value="" selected disabled>Select Current role</option>
+        <option value="">Student</option>
+        <option value="">Full Time Job</option>
+        <option value="">Full Time Learner</option>
+        <option value="">Prefer not to say</option>
+      </select>
 
-        <p>Would you recommend freeCodeCamp to a friend?</p>
-        <input type="radio" id="#definitely" name="#survey-form" value="not-sure">
-        <label for="definitely">Definetly</label>
-        <input type="radio" id="maybe" name="#survey-form" value="not-sure">
-        <label for="maybe">Maybe</label>
-        <input type="radio" id="notsure" name="#survey-form" value="not-sure">
-        <label for="notsure">Not sure</label>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <input
+        type="radio"
+        id="#definitely"
+        name="#survey-form"
+        value="not-sure"
+      />
+      <label for="definitely">Definetly</label>
+      <input type="radio" id="maybe" name="#survey-form" value="not-sure" />
+      <label for="maybe">Maybe</label>
+      <input type="radio" id="notsure" name="#survey-form" value="not-sure" />
+      <label for="notsure">Not sure</label>
 
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <label for="front-end">
+        <input type="checkbox" id="front-end" name="prefer" value="front-end" />
+        Front-end Projects </label
+      ><br />
 
+      <label for="back-end">
+        <input type="checkbox" id="back-end" name="prefer" value="back-end" />
+        Back-end Projects </label
+      ><br />
+
+      <label for="data-visualization">
+        <input
+          type="checkbox"
+          id="data-visualization"
+          name="prefer"
+          value="data-visualization"
+        />
+        Data Visualization </label
+      ><input
+        type="checkbox"
+        id="#definitely"
+        name="#survey-form"
+        value="not-sure"
+      />
+      <label for="definitely">Front-end Projects</label>
+      <input type="checkbox" id="maybe" name="#survey-form" value="not-sure" />
+      <label for="maybe">Back-end Projects</label>
+      <input
+        type="checkbox"
+        id="notsure"
+        name="#survey-form"
+        value="not-sure"
+      />
+      <label for="notsure">Data Visualization</label>
     </form>
-    
-</body>
+  </body>
 </html>
